@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Best Restaurants In India</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSS
+        ================================================ -->
+        <!-- Owl Carousel -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/animate.min.css">
+
+		<link rel="stylesheet" href="css/main.css">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- Js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+        <style>
+  
+    .outsidebox{
+        position: relative;
+        
+        min-height: 110px;
+        
+        font-family: ;
+        margin-top: 260px;
+        
+        
+    }
+            .bg{
+                border-radius: 5px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.5;
+                 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+            }
+    .innerwrapper{
+                font-family: myfont;
+
+       
+        padding-bottom: 10px;
+     
+    }
+    select {
+        
+        padding:3px;
+        height: 60px;
+        float: left;
+        background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right ;
+        
+        -webkit-appearance: none;
+        border-radius: 5px 0px 0px 5px;
+        
+        font-size: 16px;
+        border: 0;
+        background-color: white;
+      /* background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd; */
+        background-color: white;
+        -webkit-appearance: none;
+  
+}
+    .locality{
+        float: left;
+        padding-left: 10px;
+       
+        margin: 0;
+        
+        height: 60px;
+        font-size: 16px;
+        border: 0;
+        background-color: lightgrey; 
+    }
+    .btn{
+        float: left;
+       border: 0;
+    padding: 10px;
+        height: 60px;
+    font-size: 16px;
+  
+    border-radius: 0px 5px 5px 0px;
+   
+   
+        background-color: darkgray; 
+        color: black;
+    }
+            
+   
+           
+            #overlay    {  
+                background:rgba(0,0,0,.75);
+                text-align:center;
+                height:150px;
+                padding:65px 0 66px 0;
+                opacity:0;
+                -webkit-transition: opacity .25s ease;
+                -moz-transition: opacity .25s ease;
+            }
+
+            #box1:hover #overlay {
+                 opacity:1;
+            }
+            #box1    {  
+                 background:url(images/slider/1.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box2:hover #overlay {
+                 opacity:1;}
+            #box2    {  
+                 background:url(images/slider/8.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box3:hover #overlay {
+                 opacity:1;}
+            #box3    {  
+                 background:url(images/slider/14.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box4:hover #overlay {
+                 opacity:1;}
+            #box4    {  
+                 background:url(images/slider/15.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box5:hover #overlay {
+                 opacity:1;}
+            #box5    {  
+                 background:url(images/slider/2.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box6:hover #overlay {
+                 opacity:1;}
+            #box6    {  
+                 background:url(images/slider/16.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            #box7:hover #overlay {
+                 opacity:1;}
+            #box7    {  
+                 background:url(images/slider/17.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+                 height: 150px;
+            }
+            slidertext{
+                color: white;
+            }
+            #box8:hover #overlay {
+                 opacity:1;}
+            #box8    {  
+                 background:url(images/slider/4.jpg);
+                 background-size:cover;
+                 overflow:hidden;
+                 margin-right: 10px;
+            height: 150px;}
+            slidertext{
+                padding-left: 5px;
+                color: white;
+            }
+        </style>
+	</head>
+	<body>
+	<!--
+	header-img start 
+	============================== -->
+    <section id="hero-area">
+        <div class="outsidebox col-xs-10 col-xs-offset-1">
+            <div class="bg"></div>
+    <div class="innerwrapper col-xs-12">
+        <h4 style="color:white; text-align:center; font-family:Arial, Helvetica, sans-serif ;padding-top:10px; padding-bottom:10px; font-size:25px">Best Restaurants in Town</h4>
+    
+       <div class="row">
+           <form  method="POST" action="api.php">
+                 <select  class="col-xs-12 col-sm-3 conatiner-fluid" id="city" name="city">
+                     <option value="">Choose City</option><span class="caret"></span> 
+                     <option value="Bangalore">Bangalore</option>
+                     <option value="New Delhi">New delhi</option>
+                     <option value="Mumbai">Mumbai</option>
+                     <option value="Pune">Pune</option>
+                     <option value="Chennai">Chennai</option>
+                     <option value="Hyderabad">Hyderabad</option>
+                     <option value="Kolkata">Kolkata</option>
+                     <option value="Visakhapatnam">Visakhapatnam</option>
+                 </select>
+
+             <input class="col-xs-12 col-sm-6  locality" type="search" placeholder="Type Your location (landmark,road,area)" autocomplete="off" name="locality">
+                  
+               
+                  <input type="submit" name="submit" value="Search" class="col-sm-3 col-xs-12 btn">
+              
+    
+
+ 
+               </form>
+                </div>
+    
+        </div>
+    </div>
+      
+       
+    </section>
+	<!--
+    Header start 
+	============================== -->
+	<nav id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                                  <a class="navbar-brand" href="#">
+                                    <img src="images/logo.png" alt="Logo">
+                                  </a>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="#hero-area">Home</a></li>
+                                <li><a href="#about-us">Chef's Special</a></li>
+                                <li><a href="#blog">Latest</a></li>
+                                
+                                <li><a href="#subscribe">news</a></li>
+                                <li><a href="#contact-us">contacts</a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->
+    <!--
+    Slider start
+    ============================== -->
+    <section id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="title">
+                            <h3>BEST <span>RESTAURANTS</span></h3>
+                        </div>
+                        <div id="owl-example" class="owl-carousel"> <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="New Delhi" selected ></option>
+                 </select>
+
+             
+                            <button id="box1" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                                
+                                <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Delhi NCR</h3></div>
+                            </button></form>
+                            <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Mumbai" selected ></option>
+                 </select>
+
+             
+                            <button id="box2" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                           
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Mumbai </h3></div>
+                                </button></form>
+                          <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Kolkata" selected ></option>
+                 </select>
+
+             
+                            <button id="box3" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Kolkata </h3></div>
+                              </button></form>
+                           <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Bangalore" selected ></option>
+                 </select>
+
+             
+                            <button id="box4" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Bangalore </h3></div>
+                               </button></form>
+                          <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Pune" selected ></option>
+                 </select>
+
+             
+                            <button id="box5" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Pune </h3></div>
+                              </button></form>
+                           <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Hyderabad" selected ></option>
+                 </select>
+
+             
+                            <button id="box6" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Hyderabad </h3></div>
+                               </button></form>
+                          <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Chennai" selected ></option>
+                 </select>
+
+             
+                            <button id="box7" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in Chennai </h3></div>
+                              </button></form>
+                           <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Visakhapatnam" selected ></option>
+                 </select>
+
+             
+                            <button id="box8" type="submit" name="submit" value="Search" style="border:none; padding:0; ">
+                               
+                                 <div id="overlay"><h3 id="slidertext" style="color:white;">Best restaurants in visakhapatnam </h3></div>
+                               </button></form>
+                        
+                        </div>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- slider close -->
+    <!--
+    about-us start
+    ============================== -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <img class="wow fadeInUp img-circle" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cook/cook1.png" alt="cooker-img" style="margin-right:20px;">
+                        <img class="wow fadeInUp img-circle" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cook/cook2.png" alt="cooker-img" style="margin-right:20px;">
+                        <img class="wow fadeInUp img-circle" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cook/cook3.png" alt="cooker-img" style="margin-right:20px;">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >Your <span>Restaurant’s</span>  Chef is Real  <span>Star!</span>
+                        </h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">These days, instead of pledging themselves to a respected restaurant (preferably Michelin-starred) and working their way up, some ambitious young chefs   are going out on their own after only a few months at a renowned kitchen.  <br>They’re not opening restaurants of their own, however, but instead bouncing from place to place — a trend that’s coincided with the flourishing of restaurant takeovers and pop-up events.</p>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #call-to-action close -->
+    <!--
+    blog start
+    ============================ -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading">Latest <span>From</span> the <span>Kitchen</span></h1>
+                        <ul>
+                          <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="New Delhi" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="6" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+                                  <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="blog-img">
+                                    <img src="images/blog/13.png" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                   <h3>Best Cafes in Delhi</h3>
+                                    <p>Be it a date or just a get together, everybody likes cafes. Here is a list of best cafes in town.</p>
+                                </div>
+                                </button>
+                               </li></form>
+                           <form method="POST" action="formatting.php" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Kolkata" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="3" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                 <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="blog-img">
+                                    <img src="images/blog/7.png" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Best place to chill in Kolakata</h3>
+                                   <p>Break the monotony and get together with your friends to have best chilling places in Kolkata.</p>
+                                     </div></button>
+                               </li></form>
+                            <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Mumbai" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="5" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                 <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="content-left">
+                                    <h3>Best takeaway in Mumbai</h3>
+                                    <p>Got no time to sit down? Get the best food in your locality for takeaway because we value your time.</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/8.png" alt="blog-img">
+                                     </div></button>
+                                </li></form>
+                           <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Pune" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="1" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                 <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="content-left">
+                                    <h3>Best home delivery in Pune</h3>
+                                    <p>Wanna have food of your choice at your doorstep? Have a look and get best food delivered to you.</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="images/blog/4.png" alt="blog-img">
+                                     </div></button>
+                               </li></form>
+                           <form action="api.php" method="POST" >
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Bangalore" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="2" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                 <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="blog-img">
+                                    <img src="images/blog/11.png" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Best fast food in Bangalore</h3>
+                                    <p>Tired of eating at home? Get a list of best restaurants  which serve your needs.</p>
+                                     </div></button>
+                               </li></form>
+                            <form  method="POST" action="formatting.php">
+                             <select  id="city" name="city" hidden="hidden">
+                     <option value="Chennai" selected ></option>
+                 </select>
+
+             
+              
+     <select id="category" name="category" hidden="hidden">
+        <option value="2" selected></option>
+    </select>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="800ms">
+                                 <button type="submit" name="submit" value="Search" style="border:none; padding:0; background:none; height:100%; width:100%;">
+                                <div class="blog-img">
+                                    <img src="images/blog/6.png" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Best bakery in Chennai</h3>
+                                    <p>Eat your way to heaven with these outlets offering best bakery in Chennai.</p>
+                                     </div></button>
+                                </li></form>
+                        </ul>
+                      
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+    <!--
+    price start
+    ============================ -->
+   
+    <!--
+    subscribe start
+    ============================ -->
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> SUBSCRIBE <span>to our</span> NEWSLETTER</h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">A way of staying up-to-date with your favorite establishments. </p>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Enter your email to subscribe...">
+                                    <div class="input-group-addon">
+                                        <button class="btn btn-default" type="submit">subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #subscribe close -->
+    <!--
+    CONTACT US  start
+    ============================= -->
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">our <span>CONTACT US</span></h1>
+                        <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">Sign Up for <span>Email Alerts</span> </h3>
+                        <form>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Write your full name here...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+                                <input type="text" class="form-control" placeholder="Write your email address here...">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+                                <textarea class="form-control" rows="3" placeholder="Write your message here..."></textarea>
+                            </div>
+                        </form>
+                        <a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">send your message</a>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- #contact-us close -->
+    <!--
+    footer  start
+    ============================= -->
+    <section id="footer">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                        <h3>CONTACT <span>INFO</span></h3>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                  <h4><i class="fa fa-phone"></i>Telephone</h4>
+                                  <p>Mobile: +91 123 00 9000 00</p>
+                                    <p style="white-space:pre;">Office: +91 124 45 000 00</p>
+                                    <p style="white-space:pre;">Fax:     +91 124 12 000 00</p>
+                                    
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-map-marker"></i>Address</h4>
+                                  <p>Lorem ipsum dolor sit amet,<br>consectetur adip iscing elit.<br>India-122018</p>
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-envelope"></i>E mail</h4>
+                                  <p>contact@bestrestaurantsinindia.com</p>
+                                  
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
+                        <h3><span>LATEST</span></h3>
+                        <div class="blog">
+                            <ul>
+                                <li>
+                                    <h4><a href="#">Nov 9-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                                <li>
+                                    <h4><a href="#">Sep 8-2014</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
+                                </li>
+                            </ul>                
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
+                        <div class="gallary">
+                            <h3>PHOTO <span>STREAM</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/footer/14.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/footer/15.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/footer/16.jpg" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/footer/17.jpg" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-media-link">
+                            <h3>Follow <span>US</span></h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copyright &copy; 2014 - All Rights Reserved.Design and Developed By Viola Gupta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	</body>
+</html>
